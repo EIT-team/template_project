@@ -63,6 +63,5 @@ scp user@ssh.rd.ucl.ac.uk:/path/to/input/file.mat resources/data/file.mat
 
 6. __Once there is a significant change pushed, or a new release, make a pull request and name someone else in the team code review your changes.__ See instructions [here](https://help.github.com/articles/using-pull-requests/).
 
-
-    
+7. __Something To test__
 
