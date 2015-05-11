@@ -142,11 +142,9 @@ PROMPT_COMMAND='history -a'
 [user]
     name = your_name_here
     email = your_GitHub_email_here
-
-
 ```
 
- You can customise this to have your details (username, path to preferred text/merge editor, etc). Once it's done, you can save it in _~/.gitconfig_. 
+You can customise this to have your details (username, path to preferred text/merge editor, etc). Once it's done, you can save it in _~/.gitconfig_. 
 
 
 
