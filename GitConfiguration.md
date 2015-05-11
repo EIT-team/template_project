@@ -1,14 +1,14 @@
-To prevent git from always asking for your credentials when typing a command, you can follow [this instructions](https://help.github.com/articles/generating-ssh-keys/).
+ * To prevent git from always asking for your credentials when typing a command, you can follow [this instructions](https://help.github.com/articles/generating-ssh-keys/).
 
-If you are using __GitBash in Windows__, it'd may come in handy to have this added to your _.bash_profile_ (create it in ~/.bash_profile if it doesn't exist already) to keep track of your commands history:
-
-```
+ * If you are using __GitBash in Windows__, it'd may come in handy to have this added to your _.bash_profile_ (create it in ~/.bash_profile if it doesn't exist already) to keep track of your commands history:
+ 
+ ```
 PROMPT_COMMAND='history -a'
 ```
 
-Also, a ___.gitconfig___ file may come in handy for git aliases (i.e. typing ```git st``` instead of ```git status``` or ```git push``` instead of ```git push origin master```), preventing git from always asking for your username, opening notepad++ automatically when you commit something without a message, etc. Here is an example _.gitconfig_:
-
-```
+ * Also, a ___.gitconfig___ file may come in handy for git aliases (i.e. typing ```git st``` instead of ```git status``` or ```git push``` instead of ```git push origin master```), preventing git from always asking for your username, opening notepad++ automatically when you commit something without a message, etc. Here is an example _.gitconfig_:
+ 
+ ```
 # set your user tokens as environment variables, such as ~/.secrets
 # See the README for examples.
 [color]
@@ -146,7 +146,7 @@ Also, a ___.gitconfig___ file may come in handy for git aliases (i.e. typing ```
 
 ```
 
-You can customise this to have your details (username, path to preferred text/merge editor, etc). Once it's done, you can save it in _~/.gitconfig_. 
+ You can customise this to have your details (username, path to preferred text/merge editor, etc). Once it's done, you can save it in _~/.gitconfig_. 
 
 
 
