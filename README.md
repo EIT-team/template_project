@@ -43,13 +43,13 @@ scp user@ssh.rd.ucl.ac.uk:/path/to/input/file.mat resources/data/file.mat
 
  * Add .gitignore files where needed to prevent GitHub from pushing unnecessary files or files that shouldn't be shared. E.g.:
  
- ```
+ ```bash
  echo "**/*.dll" >.gitignore
  ```
 
 4. __Add, commit and push everything to GitHub once you are happy with it:__
 
- ```
+ ```bash
     git add -A .
     git commit -m "First commit of Kirill's CGAL for rats." 
     git push
@@ -62,7 +62,4 @@ scp user@ssh.rd.ucl.ac.uk:/path/to/input/file.mat resources/data/file.mat
  ```
 
 6. __Once there is a significant change pushed, or a new release, make a pull request and name someone else in the team code review your changes.__ See instructions [here](https://help.github.com/articles/using-pull-requests/).
-
-
-    
 
