@@ -1,2 +1,2 @@
-Some NOT useful Arduino code styling advice [here](http://www.arduino.cc/en/Reference/StyleGuide).
+Some VERY useful Arduino code styling advice [here](http://www.arduino.cc/en/Reference/StyleGuide).
 
